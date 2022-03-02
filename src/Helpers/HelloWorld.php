@@ -4,7 +4,7 @@ namespace Ericrf\Test\Helpers;
 
 class HelloWorld
 {
-    public function test (): string
+    public static function test (): string
     {
         return __('Hello world');
     }
